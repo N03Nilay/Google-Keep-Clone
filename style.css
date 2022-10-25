@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+padding: 0;
+}
+.header{
+    height: 3rem;
+    font-weight: lighter;
+    background-color:yellow;
+    display: flex;
+}
+.title_name{
+    padding-left: 2.5%;
+    padding-top: 2%;
+}
+#file-icon{
+    font-size: 200%;
+    margin-left: -27%;
+    margin-top: 0.6%;
+}
+#plus-icon{
+    font-size: 220%;
+    margin-left: 79%;
+    margin-top: 2%;
+
+}
+/* .plus{
+    margin-left: 75%;
+    margin-top: 0.7%;
+} */
+#plus-icon:hover ,#cancel-icon:hover{
+    cursor: pointer;
+}
+
+#cancel-icon{
+    font-size: 180%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.main{
+    display: flex;
+   
+}
+.left{
+    width: 100%;
+    /* height: 32.5rem; */
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    width: 35%;
+    height: 32.5rem;
+    
+    z-index: 1;
+    background-color: rgb(175, 108, 218);
+    transition: 0.5s;
+    display: none;
+}
+.right h1{
+    margin-left: 28%;
+    margin-top: 8%;
+}
+.add{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+textarea{
+    outline: none;
+    border: 3px solid sandybrown;
+    border-radius: 2%;
+    
+}
+#add-des{
+    margin-top: 2%;
+    width: 85%;
+    height: 10rem;
+
+}
+#add-note{
+    margin-top: 5%;
+    margin-left: 22%;
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 150%;
+    border: 2px solid rgb(192, 153, 224);
+    border-radius: 10%;
+    background-color: #df8bdc;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#add-note:hover{
+    cursor: pointer;
+    background-color: rgb(154, 214, 65);
+    height: 2.5rem;
+    width: 5.2rem;
+    
+}
+.list{
+    background-color: rgb(223, 241, 119);
+   height: 8rem;
+   width: 12rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 5%;   
+}
+.list:hover{
+    background-color: rgb(191, 206, 106);
+   height: 8.3rem;
+   width: 12.3rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 5%;   
+}
+.top{
+    display: flex;
+}
+.delete{
+     margin-top: 2%;  
+      margin-left: 60%;    
+}
+.delete:hover{
+    cursor: pointer;
+    font-size: 110%;
+    color: red;
+}
+.records{
+    margin-left: 2%;
+   
+}
+hr{
+    margin-top: 1%;
+  }
+#your_notes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    /* justify-content: space-between; */
+}
+.heading-note{
+    padding-left: 1%;
+    padding-top: 2%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content-note{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: lighter;
+}
+#class-list{
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Merriweather',sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* .right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+.no{
+    margin-left: 41%;
+    margin-top: 15%;
+}
