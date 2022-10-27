@@ -13,18 +13,26 @@ var addbtn = document.getElementById("add-note");
 // localStorage.clear();
 showNotes();
 addbtn.addEventListener("click",() => {
-  let addTitle = document.getElementById("add-title");
     let addTxt = document.getElementById("add-des");
+    document.getElementById("right-side").style.display = "none";
     let notes = localStorage.getItem("notes");
   if (notes == null) {
     notesObj = [];
   } else {
     notesObj = JSON.parse(notes);
   }
+  if(addTxt.value == "")
+  {
+    alert("Write something to add as note");
+  }
+  else{
+
+  
   notesObj.push(addTxt.value);
   localStorage.setItem("notes", JSON.stringify(notesObj));
   addTxt.value = "";
   showNotes();
+  }
 });
 
 
